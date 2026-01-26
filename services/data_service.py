@@ -101,7 +101,7 @@ class YahooFinanceDataService(DataServiceInterface):
                 for symbol in frames:
                     frames[symbol] = frames[symbol].reindex(complete_dates)
                     # Forward fill missing values with the last known price
-                    frames[symbol] = frames[symbol].fillna(method='ffill')
+                    frames[symbol] = frames[symbol].ffill()
                 
                 logger.info(f"Aligned data to {len(complete_dates)} total dates (union of all symbols)")
             
