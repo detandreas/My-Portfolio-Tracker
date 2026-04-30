@@ -77,7 +77,9 @@ class YahooFinanceDataService(DataServiceInterface):
                     symbol,
                     start=self.config.market.start_date,
                     end=tomorrow,
-                    progress=False
+                    auto_adjust=True,
+                    progress=False,
+                    threads=True
                 )
                 
                 # Handle MultiIndex columns
