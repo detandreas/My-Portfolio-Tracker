@@ -67,7 +67,8 @@ class Config:
                 "EQAC.SW": "EQAC.EU",
                 "EUR=X": "USD/EUR",
                 "AETF.AT": "AETF.GR",
-                "VWCE.DE": "VWCE.EU"
+                "VWCE.DE": "VWCE.EU",
+                "ANT": "ANT.US"
             },
             start_date="2024-06-01",
             y_axis_ticks={
