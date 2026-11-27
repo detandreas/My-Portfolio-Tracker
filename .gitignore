@@ -1,2 +1,5 @@
 /dashboard_env
 /logs
+assets/Book3.xlsx
+.DS_Store
+config/__pycache__/settings.cpython-313.pyc
